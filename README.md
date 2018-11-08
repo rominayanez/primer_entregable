@@ -27,4 +27,5 @@ Requerimientos del sitio:
     Interacción: botones, formularios, barras, pills.
 
     Boceto:
-    (assets/img/boceto.jpg)
+    ![Boceto](/assets/img/boceto.jpg)
+    
