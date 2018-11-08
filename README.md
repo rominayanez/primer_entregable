@@ -26,4 +26,4 @@ Visuales:
 - Interacción: botones, formularios, barras, pills.
 
 Boceto:
-![Boceto](primer_entregable/assets/img/boceto.JPG)
+![Boceto](https://github.com/rominayanez/primer_entregable/blob/master/assets/img/boceto.JPG)
