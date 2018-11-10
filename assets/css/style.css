@@ -17,7 +17,7 @@ h5 {
 }
 
 /* Navbar */
-.navbar {
+.navbar-inverse {
     background-color: #021122;
     margin-bottom: 0;
     height: 100px;
@@ -80,5 +80,34 @@ blockquote {
 /* footer */
 .footer {
 
+}
+@media only screen and (max-width : 767px) {
+    h1 {
+        font-size: 2em;
+    }
+    .navbar__logo {
+        display: none;
+    }
+    .header_cobremug {
+        background-image: url(../img/4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        background-position: center;
+    }
+    .img-value-prop {
+        background-image: url(../img/17.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 250px;
+    }
+    blockquote {
+        box-sizing: border-box;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
+        font-size: 1.5em;
+        padding-top: 10vh;
+    }
 
 }
