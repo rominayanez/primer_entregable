@@ -18,7 +18,7 @@ Visuales:
 - Sección Instagram
 - footer
 
-- Layout: bootstrap
+- Layout: bootstrap, e-commerce
 - Colores: #021122 #41DD7C #FFFF8A #EE9114 #0A0707
 - Fuentes: "Oswald" "Open Sans"
 - Imágenes: carpeta "img"

@@ -11,13 +11,19 @@
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
     <!-- Fuentes -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet">
+    <!--     animated slider  -->
+    <!-- Plugin css -->
+    <link rel="stylesheet" href="assets/css/jquery.animateSlider.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
     <!-- Main Styles -->
     <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body>
     <!-- Navbar -->
-    <div class="banner">
+    <div class="banner" id="inicio">
         <h5> <strong>*ENVÍO GRATIS HOY*</strong></h5>
     </div>
     <nav class="navbar-inverse">
@@ -38,32 +44,81 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right navbar__navigation">
-                    <li><a href="#">INICIO</a></li>
-                    <li><a href="#">PRODUCTOS</a></li>
-                    <li><a href="#">SOMOS</a></li>
-                    <li><a href="#">EMPRESAS</a></li>
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#cobre">¿COBRE?</a></li>
+                    <li><a href="#galeria">GALERÍA</a></li>
+                    <li><a href="#tienda">TIENDA</a></li>
+                    <li><a href="#empresas">EMPRESAS</a></li>
+                    <li><a href="#nosotros">NOSOTROS</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
 
         </div><!-- /.container-fluid -->
     </nav>
-    <header class="container-fluid header_cobremug">
+    <!-- slider -->
+    <ul class="anim-slider">
+
+        <!-- Slide No1 -->
+        <li class="anim-slide">
+            <h1 id="looks">PARA TU CASA</h1>
+            <h1 id="amazing">BAR</h1>
+            <h1 id="place">O RESTAURANT</h1>
+        </li>
 
 
-    </header>
+        <!-- Slide No2 -->
+        <li class="anim-slide">
+            <div id="img1"></div>
+            <div id="img2"></div>
+            <div id="img3"></div>
+        </li>
 
-    <section class="container-fluid value_prop">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 img-value-prop">
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <blockquote>
-                    <p>El Cobre posee una alta conductividad térmica por lo que unos cuantos hielos harán que tu mug se mantenga helado por mucho más tiempo.</p>
-                </blockquote>
-            </div>
-        </div>
+        <!-- Slide No3 -->
+        <li class="anim-slide">
+            <h1 id="P">P</h1>
+            <h1 id="r">r</h1>
+            <h1 id="u">u</h1>
+            <h1 id="é">é</h1>
+            <h1 id="b">b</h1>
+            <h1 id="a">a</h1>
+            <h1 id="l">l</h1>
+            <h1 id="o">o</h1>
+            <h1 id="s">s</h1>
+            <h1 id="mark">!</h1>
+        </li>
+
+        <!-- Arrows -->
+        <nav class="anim-arrows">
+            <span class="anim-arrows-prev"></span>
+            <span class="anim-arrows-next"></span>
+        </nav>
+        <!-- Dynamically created dots -->
+
+    </ul>
+
+
+    <!-- Main section-->
+
+        <!-- BUTTON  -->
+    <section class="container value_prop" id="cobre">
+
+        <a class="btn btn-1">¿Por qué usar vasos de cobre? ➡️</a>
+
     </section>
-    <section class="tienda">
+
+    <section class="" id="galeria">
+        <h3 class="galeria_h3">🍺 Tu bar ya no será el mismo 🍺</h3>
+        <div class="">
+            <a href="assets/img/51.jpg" data-lightbox="cobremug"> <img src="assets/img/51.jpg" alt="" class="gallery img-responsive"> </a>
+            <a href="assets/img/70.jpg" data-lightbox="cobremug"> <img src="assets/img/70.jpg" alt="" class="gallery img-responsive"> </a>
+            <a href="assets/img/72.jpg" data-lightbox="cobremug"> <img src="assets/img/72.jpg" alt="" class="gallery img-responsive"></a>
+            <a href="assets/img/46.jpg" data-lightbox="cobremug"> <img src="assets/img/46.jpg" alt="" class="gallery img-responsive"></a>
+        </div>
+
+    </section>
+
+
+    <section class="tienda" id="tienda">
         <div class="row">
             <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
                 <div class="thumbnail">
@@ -177,8 +232,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Font Awesome 5 -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    <!-- Bower Depedencies -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/modernizr.js"></script>
+    <!-- Load the plugin -->
+    <script src="assets/js/jquery.animateSlider.js"></script>
+    <script src="assets/js/lightbox.min.js"></script>
     <!-- Main scripts -->
-    <script src="assets/js/script.js"></script>
+    <script src="main.js"></script>
 
 </body>
 
