@@ -170,9 +170,50 @@ h2{
 }
 
 /* formulario */
+
+.formulario{
+    padding-bottom: 30px;
+}
+.fa-envelope{
+    display: inline-block;
+    color: white;
+    font-size: 1.3em;
+}
+.mail{
+    display: inline-block;
+    padding-left: 5px;
+    color: white;
+
+}
+.fa-whatsapp{
+    display: inline-block;
+    color: white;
+    font-size: 1.5em;
+}
+.phone{
+    display: inline-block;
+    padding-left: 5px;
+    color: white;
+}
+.fa-instagram{
+    display: inline-block;
+    color: white;
+    font-size: 2em;
+}
+.siguenos{
+    display: inline-block;
+    color: white;
+}
 /* footer */
 .footer {
-
+background-color: #021122;
+}
+.logo_footer{
+    max-width: 100px;
+}
+.footer_h4{
+    color: #FFFF8A;
+    font-weight: bold;
 }
 @media only screen and (max-width : 767px) {
     h1 {

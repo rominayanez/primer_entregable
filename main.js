@@ -1,3 +1,4 @@
+var oneTime = false;
 $(document).ready(function() {
     //slider//
     $(".anim-slider").animateSlider({
@@ -81,9 +82,11 @@ $(document).ready(function() {
     });
     //boton //
     $(".btn-1").click(function(){
-        var newParagraph = document.createElement("h2");
-        newParagraph.innerHTML = "❄️❄️❄️ El Cobre posee una alta conductividad térmica por lo que unos cuantos hielos harán que tu mug se mantenga helado por mucho más tiempo ❄️❄️❄️ ";
-        $(".value_prop").append(newParagraph);
+
+            var newParagraph = document.createElement("h2");
+            newParagraph.innerHTML = "❄️❄️❄️ El Cobre posee una alta conductividad térmica por lo que unos cuantos hielos harán que tu mug se mantenga helado por mucho más tiempo ❄️❄️❄️ ";
+            $(".value_prop").append(newParagraph);
+        $(".btn-1").off('click');
     });
     //scroll//
     $('a[href^="#"]').click(function() {
